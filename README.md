@@ -1,2 +1,2 @@
-    gcloud builds submit --tag gcr.io/dash-plotly-testing/dash-plotly-testing_2 --project=dash-plotly-testing
-    gcloud run deploy --image gcr.io/dash-plotly-testing/dash-plotly-testing_2 --platform managed --project=dash-plotly-testing --allow-unauthenticated
+    gcloud builds submit --tag gcr.io/plotly-dash-rohit/plotly-dash-rohit --project=dash-plotly-testing
+    gcloud run deploy --image gcr.io/plotly-dash-rohit/plotly-dash-rohit --platform managed --project=plotly-dash-rohitg --allow-unauthenticated
